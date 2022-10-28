@@ -1,6 +1,6 @@
 import "./App.css";
 import styled from "styled-components";
-import SearchHead from "./component/searchHead";
+import SearchHead from "./component/SearchHead";
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
           <h1>SEARCH HERE</h1>
         </Header>
         <SearchHead />
-        <input></input>
       </Container>
     </div>
   );

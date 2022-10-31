@@ -101,15 +101,15 @@ const SearchHead = (props: DataPropsType) => {
           height={props.DropItemStyle?.height}
         >
           <t.DropList ref={focusRef}>
-            {props.dataSet?.map((item, idx) => (
+            {dataSet?.map((item, idx) => (
               <t.DropItem
                 key={item.name}
                 isFocus={index === idx ? true : false}
                 backColor={props.DropItemStyle?.backColor}
                 height={props.DropItemStyle?.height}
                 onClick={() => {
-                  props.setKeyword(item.name);
-                  props.setIsData(false);
+                  setKeyword(item.name);
+                  setIsData(false);
                 }}
               >
                 <t.MainInfo>

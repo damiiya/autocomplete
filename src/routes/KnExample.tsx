@@ -61,8 +61,8 @@ export const KnExample = () => {
         setIsData={setIsData}
         maxHeight={maxHeight}
         placeHolder="검색어를 입력하세요."
-        DropItemStyle={{ backColor: "#f4f8fb", height: 100 }}
-        ItemMainTxtStyle={{ color: "#2EA62F", fontSize: 8, fontWeight: 7 }}
+        DropItemStyle={{ backColor: "#f7f8fa", height: 100 }}
+        ItemMainTxtStyle={{ color: "#487ccf", fontSize: 8, fontWeight: 7 }}
         ItemSubTxtStyle={{
           color: "#6B6B6B",
           fontSize: 7,

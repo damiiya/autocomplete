@@ -57,7 +57,7 @@ export const EnExample = () => {
         setIsData={setIsData}
         maxHeight={maxHeight}
         placeHolder="Search your interest."
-        DropItemStyle={{ backColor: "#f4f8fb", height: 100 }}
+        DropItemStyle={{ backColor: "#f9faf7", height: 100 }}
         ItemMainTxtStyle={{ color: "#B2B300", fontSize: 8, fontWeight: 7 }}
         ItemSubTxtStyle={{
           color: "#6B6B6B",
